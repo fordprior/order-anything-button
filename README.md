@@ -12,4 +12,4 @@ Packages: Ruby 2.4, Selenium Webdriver, ChromDriver, Xvfb
 # Steps
 1. Launch and configure EC2 Ubuntu instance to successfully run browser scripts upon boot.
 2. Configure button to WiFi network.
-3. Create Lambda function to boot instance, wait, then stop it, and set IoT button as the trigger.
+3. Create Lambda function to boot instance, wait for scripts to run, then stop instance, and set IoT button as the trigger.
