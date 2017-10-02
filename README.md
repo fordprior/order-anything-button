@@ -16,6 +16,10 @@ Amazon sells click-and-order "Dash" buttons for certain products, but not the it
       *  Add the `place_order.rb` file to the `/ubuntu/home` directory
       *  Copy the ARN to use in Step 3
 2. Configure button to WiFi network.
+3. Create Lambda function to boot instance, wait for scripts to run, then stop instance, and set IoT button as the trigger.
       * Instructions [here](https://aws.amazon.com/iotbutton/getting-started/)
 3. Create Lambda function to boot the instance (use ARN from Step 1) and set IoT button as the trigger.
 4. Click the button, wait, then check your Amazon cart. Presto!
+
+# Contribution
+In order to contribute, clone the repository https://github.com/fordprior/order-anything-button and create a pull request after submitting your changes
