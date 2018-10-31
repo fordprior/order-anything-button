@@ -1,5 +1,5 @@
-require 'selenium-webdriver'
-require 'headless'
+require 'bundler/setup'
+Bundler.require(:default)
 
 @headless = Headless.new
 @headless.start
